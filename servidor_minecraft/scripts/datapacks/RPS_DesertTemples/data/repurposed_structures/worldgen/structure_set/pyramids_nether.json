@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "repurposed_structures:pyramid_nether",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1834904924,
+    "spacing": 30,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,38 @@
+
+#General settings for the Horseshoes mod
+[general]
+
+	#--- Enchanting Settings ---
+	[general.enchanting]
+		#Enable or disable enchanting for vanilla and modded Horse Armor.
+		enableHorseArmorEnchanting = true
+		#Enable or disable enchanting for Horseshoes.
+		enableHorseshoeEnchanting = true
+
+	#--- Horseshoe Stat Configuration ---
+	[general.horseshoes]
+		#Speed bonus for Iron Horseshoes.
+		#Range: 0.0 ~ 2.0
+		ironHorseshoeSpeed = 0.05
+		#Armor bonus for Iron Horseshoes.
+		#Range: 0.0 ~ 20.0
+		ironHorseshoeArmor = 2.5
+		#Speed bonus for Gold Horseshoes.
+		#Range: 0.0 ~ 2.0
+		goldHorseshoeSpeed = 0.09
+		#Armor bonus for Gold Horseshoes.
+		#Range: 0.0 ~ 20.0
+		goldHorseshoeArmor = 1.5
+		#Speed bonus for Diamond Horseshoes.
+		#Range: 0.0 ~ 2.0
+		diamondHorseshoeSpeed = 0.07
+		#Armor bonus for Diamond Horseshoes.
+		#Range: 0.0 ~ 20.0
+		diamondHorseshoeArmor = 3.5
+		#Speed bonus for Netherite Horseshoes.
+		#Range: 0.0 ~ 2.0
+		netheriteHorseshoeSpeed = 0.09
+		#Armor bonus for Netherite Horseshoes.
+		#Range: 0.0 ~ 20.0
+		netheriteHorseshoeArmor = 5.0
+

@@ -1,0 +1,27 @@
+{
+  "itemSlotEnabled": true,
+  "itemGrabbingEnabled": true,
+  "creativeTabsEnabled": true,
+  "enchantmentsEnabled": true,
+  "stonecutterRecipesEnabled": true,
+  "bookEditEnabled": true,
+  "loomPatternsEnabled": true,
+  "advancementTabsEnabled": true,
+  "worldIconEnabled": true,
+  "serverIconEnabled": true,
+  "remapCursorsEnabled": true,
+  "deferredLoading": false,
+  "inactiveWidgetsEnabled": true,
+  "aggressiveCursor": false,
+  "virtualMode": false,
+  "blacklist": [],
+  "global": {
+    "scaleActive": false,
+    "xhotActive": false,
+    "yhotActive": false,
+    "scale": 1.0,
+    "xhot": 0,
+    "yhot": 0
+  },
+  "settings": {}
+}

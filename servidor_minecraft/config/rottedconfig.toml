@@ -1,0 +1,125 @@
+
+[Spawns]
+	#Default false
+	"Should mobs spawn after a few days?" = false
+	"mob|weight|minimum|maximum" = ["rotted:marine|25|1|2", "rotted:doctor|40|1|3", "rotted:farmer|60|2|5", "rotted:miner|50|1|3", "rotted:adventurer|55|2|4", "rotted:flusk|20|1|1", "rotted:shielder|25|1|2"]
+	#Default minecraft:is_overworld
+	"Dictates in what biome the zombies spawn" = ["minecraft:is_overworld"]
+	#Default 60
+	MobCap = 60
+	#Default 3
+	"Days before zombies start spawning" = 3
+
+[Contagion]
+	#Default 0.8
+	#Range: 0.1 ~ 1.0
+	"The chance of the mob applying this effect when hitting you" = 0.8
+	#Default true
+	"Should this effect be applied when zombies hit you or other entities?" = true
+
+["Additional AI Changes for the vanilla zombies"]
+	#Default true
+	"Should the vanilla zombies have decreased range( rotted-zombie-like ) ?" = true
+	#Default true
+	"Should the vanilla zombies perform small leaps at the player?" = true
+
+[Zombifications]
+	#Default true
+	"Should the villager convert after dying with the contagion effect?" = true
+	#Default true
+	"Should the player convert after dying with the contagion effect?" = true
+
+["AI Options + Block Breaking Options"]
+	#Default true
+	"Should the rotted zombies break blocks?" = true
+	#Default 0.15
+	#Range: 0.05 ~ 0.5
+	"Area of the blocks that the mob can break, the bigger the number, the more the blocks a mob can destroy in one go" = 0.15
+
+	["AI Options + Block Breaking Options"."Chance of the block breaking on tick, 90 ~= 1"]
+		#Default 90
+		#Range: 60 ~ 200
+		"5%" = 90
+
+[Flusk]
+	#Default 4
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets Flusk's Damage" = 4.0
+	#Default 30
+	#Range: 10.0 ~ 1.7976931348623157E308
+	"Sets Flusk's Max health" = 30.0
+
+[Doctor]
+	"Potions that are used to attack others , NOT effects" = ["minecraft:weakness", "minecraft:poison"]
+	"Potions that are used to buff the zombies , NOT effects" = ["minecraft:fire_resistance", "minecraft:regeneration", "minecraft:strength"]
+	#Default 60
+	#Range: > 1
+	"Sets the time before throwing a potion when attacking" = 60
+	#Default 15
+	#Range: 5.0 ~ 1.7976931348623157E308
+	"Sets Doctor's Max health" = 15.0
+	#Default 3
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Doctor's Damage" = 3.0
+	#Default true
+	"Should Doctors use Potions?" = true
+	#Default 40
+	#Range: > 1
+	"Sets the time before throwing a potion when buffing" = 40
+
+["Past Loot"]
+	#Default 0.15
+	#Range: 0.0 ~ 1.0
+	"Sets the past-loot drop chance( loot from the zombie's past life )" = 0.15
+
+	["Past Loot"."Should Farmers or other Zombies drop past-loot( wheat, iron_ore, carrot, etc"]
+		#Default true
+		" )?" = true
+
+[Adventurer]
+	#Default 3
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Adventurer's Damage" = 3.0
+	#Default 18
+	#Range: 6.0 ~ 1.7976931348623157E308
+	"Sets Adventurer's Max health" = 18.0
+
+[Shielder]
+	#Default 2
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Shielder's Damage" = 2.0
+	#Default 28
+	#Range: 8.0 ~ 1.7976931348623157E308
+	"Sets Shielder's Max health" = 28.0
+
+[Miner]
+	#Default 16
+	#Range: 6.0 ~ 1.7976931348623157E308
+	"Sets Miner's Max health" = 16.0
+	#Default 4
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets Miner's Damage" = 4.0
+
+[Marine]
+	#Default 20
+	#Range: 10.0 ~ 1.7976931348623157E308
+	"Sets Marine's Max health" = 20.0
+	#Default 4
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets Marine's Damage" = 4.0
+
+[Farmer]
+	#Default 4
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets Farmer's Damage" = 4.0
+	#Default 12
+	#Range: 6.0 ~ 1.7976931348623157E308
+	"Sets Farmer's Max health" = 12.0
+
+["Contagion Vanilla Zombies"]
+	#Default 0.2
+	#Range: 0.1 ~ 1.0
+	"The chance of the mob applying this effect when hitting you" = 0.2
+	#Default true
+	"Should this effect be applied when zombies hit you or other entities?" = true
+

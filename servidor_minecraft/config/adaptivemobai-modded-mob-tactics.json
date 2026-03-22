@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "autoAssignEnabled": true,
+  "defaultHostileProfile": "zombie",
+  "defaultPassiveProfile": "cow",
+  "overrides": {},
+  "namespaceDefaults": {}
+}

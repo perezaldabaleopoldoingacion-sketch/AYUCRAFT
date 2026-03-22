@@ -1,0 +1,181 @@
+
+[general]
+	#Whether to log the dirt block on common setup
+	logDirtBlock = true
+	#A magic number
+	#Range: > 0
+	magicNumber = 42
+	#What you want the introduction message to be for the magic number
+	magicNumberIntroduction = "The magic number is... "
+	#A list of items to log on common setup.
+	items = ["minecraft:iron_ingot"]
+
+	[general.mobLevel]
+		#Enable Mob Level system
+		enabled = true
+
+	[general.jobWeaponRestriction]
+		#Enable class-weapon restriction (attack speed penalty)
+		enabled = true
+
+[leveling]
+	#Player max level. Default: 75
+	#Range: 1 ~ 1000
+	maxLevel = 75
+
+[mobTarget]
+	#How the whitelist/blacklist is interpreted.
+	#- WHITELIST: must match whitelist AND not match blacklist
+	#- BLACKLIST: must NOT match blacklist (whitelist ignored)
+	#Default: WHITELIST
+	mode = "WHITELIST"
+	#Which mobs are allowed to receive levels.
+	#Patterns:
+	#  - *            (all)
+	#  - modid:*      (all entities in namespace)
+	#  - modid:entity (exact)
+	#Default: ["*"]
+	whitelist = ["*"]
+	#Which mobs are excluded...
+	#Default excludes major bosses.
+	blacklist = ["minecraft:warden", "minecraft:wither", "minecraft:ender_dragon", "cataclysm:ancient_remnant", "cataclysm:ender_guardian", "cataclysm:netherite_monstrosity", "cataclysm:maledictus", "cataclysm:ignis", "cataclysm:scylla", "irons_spellbooks:dead_king", "irons_spellbooks:dead_king_corpse", "block_factorys_bosses:infernal_dragon", "block_factorys_bosses:yeti", "block_factorys_bosses:sandworm", "block_factorys_bosses:underworld_knight", "dungeons_and_combat:sunleia"]
+
+[statReset]
+	#Item id required to reset allocated stats.
+	#Example: minecraft:diamond, minecraft:emerald, epicclassmod:your_currency
+	#If invalid, it will fallback to minecraft:diamond.
+	item = "minecraft:diamond"
+	#How many of the item are required.
+	#0 = free.
+	#Range: 0 ~ 999999
+	cost = 20
+
+[mobLevel]
+	#HP multiplier per level (55 entries)
+	hpMult = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	#Attack Damage multiplier per level (55 entries)
+	adMult = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	#Spawn probability per level (55 entries, will be normalized)
+	levelProb = [0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818, 0.01818181818181818]
+
+	[mobLevel.dropChance]
+		#Range: 0.0 ~ 1.0
+		min = 0.05
+		#Range: 0.0 ~ 1.0
+		max = 0.5
+
+	[mobLevel.loot]
+		#Tier1: Level 1~14; format: modid:item[*weight]
+		tier1 = ["minecraft:coal*6", "minecraft:raw_iron*5", "minecraft:raw_copper*5"]
+		#Tier2: Level 15~27
+		tier2 = ["minecraft:coal*5", "minecraft:raw_iron*5", "minecraft:raw_copper*4", "minecraft:raw_gold*3", "minecraft:redstone*3", "minecraft:lapis_lazuli*3"]
+		#Tier3: Level 28~41
+		tier3 = ["minecraft:coal*4", "minecraft:raw_iron*4", "minecraft:raw_gold*4", "minecraft:redstone*4", "minecraft:lapis_lazuli*4", "minecraft:diamond*2", "minecraft:emerald*2"]
+		#Tier4: Level 42~55
+		tier4 = ["minecraft:raw_iron*3", "minecraft:raw_gold*3", "minecraft:redstone*3", "minecraft:lapis_lazuli*3", "minecraft:diamond*3", "minecraft:emerald*3", "minecraft:netherite_scrap*1"]
+
+[hud]
+
+	[hud.healthbar]
+		#Enable the custom Souls-like health/armor/XP HUD
+		enabled = true
+		#Left padding (pixels) from screen origin
+		#Range: 0 ~ 10000
+		padX = 12
+		#Top padding (pixels) from screen origin
+		#Range: 0 ~ 10000
+		padY = 12
+		#Bar width in pixels
+		#Range: 60 ~ 10000
+		barW = 200
+		#Bar height in pixels
+		#Range: 8 ~ 256
+		barH = 12
+		#Vertical gap between bars
+		#Range: 0 ~ 256
+		gap = 8
+		#Icon width in pixels
+		#Range: 8 ~ 128
+		iconW = 14
+		#Icon height in pixels
+		#Range: 8 ~ 128
+		iconH = 14
+		#Gap between icon and bar
+		#Range: 0 ~ 256
+		iconGap = 6
+		#Scale factor for the custom healthbar HUD (bars & icons)
+		#Range: 0.6 ~ 2.5
+		scale = 1.0
+
+	[hud.questPreview]
+		#Enable the right-side Quest Preview overlay
+		enabled = true
+		#Scale factor for the Quest Preview overlay (affects text, paddings, bars)
+		#Range: 0.6 ~ 2.5
+		scale = 1.0
+
+	[hud.tracker]
+		#Scale factor for the top Tracker overlay (Boss/Structure tracker)
+		#Range: 0.6 ~ 2.5
+		scale = 1.0
+
+[classes]
+
+	[classes.startingMaxHealth]
+		#If false, class starting max health is ignored (UI shows player's real MaxHealth)
+		enabled = true
+		#Warrior starting MAX_HEALTH (even, 2~40)
+		#Range: 2.0 ~ 40.0
+		warrior = 8.0
+		#Paladin starting MAX_HEALTH (even, 2~40)
+		#Range: 2.0 ~ 40.0
+		paladin = 10.0
+		#Berserker starting MAX_HEALTH (even, 2~40)
+		#Range: 2.0 ~ 40.0
+		berserker = 8.0
+		#Reaper starting MAX_HEALTH (even, 2~40)
+		#Range: 2.0 ~ 40.0
+		reaper = 6.0
+		#Sorcerer starting MAX_HEALTH (even, 2~40)
+		#Range: 2.0 ~ 40.0
+		sorcerer = 6.0
+		#Archer starting MAX_HEALTH (even, 2~40)
+		#Range: 2.0 ~ 40.0
+		archer = 6.0
+
+	[classes.maxHealthCap]
+		#Enable hard cap for player's final MAX_HEALTH.
+		#If enabled, player's Max Health will NEVER exceed capValue (even with quest rewards).
+		enabled = false
+		#Hard cap value for Attributes.MAX_HEALTH (final value).
+		#Example: 100.0 means max health cannot exceed 100.
+		#Range: 1.0 ~ 100000.0
+		capValue = 100.0
+
+[classWeapon]
+
+	[classWeapon.disallowAdd]
+		warrior = []
+		paladin = []
+		berserker = []
+		reaper = []
+		sorcerer = []
+		archer = []
+
+	[classWeapon.disallowRemove]
+		warrior = []
+		paladin = []
+		berserker = []
+		reaper = []
+		sorcerer = []
+		archer = []
+
+[ui]
+
+	[ui.book]
+		#Extra scale multiplier applied after fitting (BASE_GUI=4.2f is applied when followGuiScale=true). 1.0 = unchanged.
+		#Range: 0.25 ~ 4.0
+		scale = 1.0
+		#If true, also multiply by (current GUI scale / 4.2).
+		followGuiScale = true
+

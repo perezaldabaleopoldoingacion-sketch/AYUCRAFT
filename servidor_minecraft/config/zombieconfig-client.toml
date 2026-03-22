@@ -1,0 +1,6 @@
+
+#Client Configuration
+[client]
+	#Key to open config screen (default: B)
+	configKey = "B"
+

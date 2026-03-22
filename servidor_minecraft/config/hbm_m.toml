@@ -1,0 +1,55 @@
+enableRadiation = true
+enableChunkRads = true
+usePrismSystem = false
+worldRadEffects = true
+worldRadEffectsThreshold = 500.0
+worldRadEffectsBlockChecks = 10
+worldRadEffectsMaxScaling = 4.0
+worldRadEffectsMaxDepth = 5
+enableRadFogEffect = true
+radFogThreshold = 50.0
+radFogChance = 10
+maxPlayerRad = 1000.0
+radDecay = 0.01
+radDamage = 0.05
+radDamageThreshold = 200.0
+radSickness = 300
+radWater = 500
+radConfusion = 700
+radBlindness = 900
+infoToastOffsetX = 15
+infoToastOffsetY = 15
+maxRad = 100000.0
+radChunkDecay = 0.1
+radChunkSpreadFactor = 0.2
+radSpreadThreshold = 0.01
+minRadDecayAmount = 0.01
+radSourceInfluenceFactor = 0.08
+radRandomizationFactor = 1.0
+modelUpdateDistance = 3
+enableOcclusionCulling = true
+useInstancedStaticRendering = true
+useColladaDoorAnimations = true
+useColladaZUpConversion = true
+doorAnimatedPartBrightness = 88
+vatsRenderDistanceChunks = 7
+thermalRenderMode = "FULL_SHADER"
+enableDebugRender = true
+debugRenderInSurvival = false
+debugRenderTextSize = 0.2
+debugRenderDistance = 4
+enableDebugLogging = false
+
+[radiationPixelEffect]
+enableRadiationPixelEffect = true
+radiationPixelEffectThreshold = 0.3
+radiationPixelMaxIntensityRad = 100.0
+radiationPixelEffectMaxDots = 250
+radiationPixelEffectGreenChance = 0.5
+radiationPixelMinLifetime = 5
+radiationPixelMaxLifetime = 20
+
+[obstructionHighlight]
+enableObstructionHighlight = true
+obstructionHighlightAlpha = 20
+obstructionHighlightDuration = 2

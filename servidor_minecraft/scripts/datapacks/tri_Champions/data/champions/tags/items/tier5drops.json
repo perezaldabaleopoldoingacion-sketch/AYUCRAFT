@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherite_scrap",
+    "minecraft:nether_star",
+    "enigmaticlegacy:etherium_ore"
+    ]
+}

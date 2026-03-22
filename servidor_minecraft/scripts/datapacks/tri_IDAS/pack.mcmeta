@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "IDAS Reconfig",
+    "pack_format": 8,
+    "_comment": "Triforge's own pack"
+  }
+}

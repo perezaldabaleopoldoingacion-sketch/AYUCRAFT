@@ -1,0 +1,10 @@
+
+[Gui]
+	"Dash Gui Location on Screen when an item is in offhand xz" = -142.0
+	"Dash Gui Location on Screen when an item is in offhand y" = 16.0
+	"Dash Gui Location on Screen xz" = -114.0
+	"Dash Gui Location on Screen y" = 16.0
+
+[animations]
+	"enable dash animations" = true
+

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "repurposed_structures:stronghold_end",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 461009219,
+    "spacing": 60,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}

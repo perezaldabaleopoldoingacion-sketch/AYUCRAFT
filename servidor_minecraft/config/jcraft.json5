@@ -1,0 +1,16 @@
+{
+	"uiPosition": "RIGHT",
+	"horizontalHudOffset": 0,
+	"verticalHudOffset": 0,
+	"iconHudPeekAllMoves": true,
+	"iconHud": true,
+	"standAuras": true,
+	"disableNarrator": true,
+	"timeEraseShader": true,
+	"epitaphOverlay": true,
+	"dummyDamageIndicatorColor": -48060,
+	"dummyDamageIndicatorColorShadow": -12578800,
+	"comboCounter": true,
+	"dynamicFirstPersonStandOpacity": true,
+	"firstPersonStandOpacityMult": 1.0
+}

@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "name": "tier#1",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "tag",
+          "expand": true,
+          "name": "champions:tier1drops",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 1
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#2",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "tag",
+          "expand": true,
+          "name": "champions:tier2drops",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 2
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#3",
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "tag",
+          "expand": true,
+          "name": "champions:tier3drops",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 3
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#4",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "tag",
+          "expand": true,
+          "name": "champions:tier4drops",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 4
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#5",
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "tag",
+          "expand": true,
+          "name": "champions:tier5drops",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 5
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

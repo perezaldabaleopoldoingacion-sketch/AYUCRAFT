@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "phantasm:block/stellium_ore_0"
+      },
+      {
+        "model": "phantasm:block/stellium_ore_1"
+      },
+      {
+        "model": "phantasm:block/stellium_ore_2"
+      },
+      {
+        "model": "phantasm:block/stellium_ore_3"
+      }
+    ]
+  }
+}

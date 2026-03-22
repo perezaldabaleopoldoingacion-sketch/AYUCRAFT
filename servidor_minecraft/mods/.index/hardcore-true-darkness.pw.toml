@@ -1,0 +1,17 @@
+filename = 'hardcoretruedarkness-4.0.0.jar'
+name = 'Hardcore True Darkness'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Forge 1.20.1 v4'
+
+[download]
+hash = '50e9ea7ca0f1f2c33d8eff78fb7ccf94206213ca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6637983
+project-id = 1280023

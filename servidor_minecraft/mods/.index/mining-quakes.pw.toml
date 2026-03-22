@@ -1,0 +1,17 @@
+filename = 'mining_quakes-forge-1.1.3.jar'
+name = 'Mining Quakes ⛏'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.3'
+
+[download]
+hash = '08925965c3fd17fff31bf9de1e9c281cd1bc0f3c2b0315366e749f616a5d7cbeaa586d472d957f0006fe3d5b1aae9ace60e830ee2d4e43c68c3264a83d83135c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LKVZxR8L/versions/SoML1sl2/mining_quakes-forge-1.1.3.jar'
+
+[update.modrinth]
+mod-id = 'LKVZxR8L'
+version = 'SoML1sl2'

@@ -1,0 +1,27 @@
+
+["Default Dash Strenght and multipliers"]
+	"Dash Power/Push Force (XZ)" = 0.7
+	"Dash Power/Push Force (Y)" = 0.6
+	"dashjump speed multiplier" = 0.9
+
+["Default Cooldoown"]
+	"Dash CoolDoown (amount of time all 3 dashbars take to load in ticks)" = 90.0
+
+["Enable Dash By Deault"]
+	"Enable Dash By Deault" = true
+	"Enable Airdash By Default" = true
+	"Enable GroundDash By Default" = true
+
+["Default Max Dash Amount"]
+	"Default Max Dash Amount" = 3.0
+
+[vfx]
+	"enable dash magic circles" = true
+
+["should config override attrributes"]
+	"should config override attributes" = true
+
+["iframes(immortality ticks)"]
+	#suggested by goldenkamui11
+	"dash iframes duration (in ticks), 0 fully disables them" = 0.0
+

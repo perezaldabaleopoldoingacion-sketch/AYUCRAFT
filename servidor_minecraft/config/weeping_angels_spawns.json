@@ -1,0 +1,555 @@
+{
+  "minecraft:snowy_slopes": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:old_growth_pine_taiga": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:mushroom_fields": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:taiga": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:deep_ocean": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "minecraft:eroded_badlands": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:frozen_river": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "quark:glimmering_weald": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:cherry_grove": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:sunflower_plains": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:end_highlands": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:birch_forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:windswept_hills": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:bamboo_jungle": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:wooded_badlands": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:badlands": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:savanna_plateau": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:beach": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:dark_forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:stony_peaks": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:mangrove_swamp": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:sparse_jungle": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:lukewarm_ocean": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "minecraft:river": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "minecraft:stony_shore": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:snowy_plains": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:warped_forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "minecraft:dripstone_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:snowy_taiga": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "goodending:oak_hammock_forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "monsters_and_girls:spooky_forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:swamp": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:grove": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "faded_conquest_2:abyss": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "lionfishapi:original_source_marker": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:jagged_peaks": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:cold_ocean": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "faded_conquest_2:pantheon_of_gods": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "bloxysstructures:adventure_realm_plains": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:basalt_deltas": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "minecraft:lush_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:deep_cold_ocean": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "minecraft:ice_spikes": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:frozen_ocean": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "minecraft:end_midlands": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:desert": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:windswept_forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:deep_frozen_ocean": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "minecraft:jungle": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:ocean": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "vampirism:vampire_forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:old_growth_spruce_taiga": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:snowy_beach": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "riverredux:gravelly_river": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "minecraft:windswept_savanna": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:warm_ocean": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "minecraft:end_barrens": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:deep_lukewarm_ocean": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "minecraft:flower_forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "riverredux:sandy_river": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "yungscavebiomes:frosted_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "terrablender:deferred_placeholder": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:nether_wastes": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "minecraft:soul_sand_valley": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "goodending:marshy_swamp": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:frozen_peaks": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "yungscavebiomes:lost_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:the_end": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "riverredux:tropical_river": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": false
+  },
+  "minecraft:old_growth_birch_forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:small_end_islands": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:crimson_forest": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "minecraft:deep_dark": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:the_void": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:meadow": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:windswept_gravelly_hills": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:savanna": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:plains": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  }
+}

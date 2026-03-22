@@ -1,0 +1,15 @@
+{
+	"onStartup": false,
+	"force": false,
+	"scrollWheelZoom": true,
+	"dynamicCamera": false,
+	"forceNoDefer": false,
+	"cameraRelative": true,
+	"turnToMouse": true,
+	"forceAutoJump": true,
+	"rollTowardsCursor": true,
+	"moveFactor_v3": 0.5,
+	"fov": 45.0,
+	"zoomFactor": 1.0,
+	"clickToMove": false
+}

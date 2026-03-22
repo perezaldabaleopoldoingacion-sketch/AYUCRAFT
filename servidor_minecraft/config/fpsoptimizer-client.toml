@@ -1,0 +1,10 @@
+#Range: 10 ~ 260
+default_fps = 260
+#Range: 10 ~ 260
+idle_fps = 260
+#Range: 1 ~ 3600
+afk_timeout = 3600
+show_idle_message = true
+idle_message = "fpsoptimizer.config.default_idle_message"
+dark_background = true
+

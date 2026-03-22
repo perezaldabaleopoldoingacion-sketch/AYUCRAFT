@@ -1,0 +1,9 @@
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+BunkerSpacing = 20
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+BunkerSeparation = 2
+#Defines the list of biomes where this structure can spawn.
+BunkerBiomes = ["plains", "snowy_plains", "sunflower_plains"]
+

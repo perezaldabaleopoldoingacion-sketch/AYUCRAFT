@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "forbidden_arcanus:block/runic_darkstone_0"
+      },
+      {
+        "model": "forbidden_arcanus:block/runic_darkstone_1"
+      },
+      {
+        "model": "forbidden_arcanus:block/runic_darkstone_2"
+      },
+      {
+        "model": "forbidden_arcanus:block/runic_darkstone_3"
+      }
+    ]
+  }
+}

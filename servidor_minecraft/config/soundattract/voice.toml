@@ -1,0 +1,23 @@
+
+#Sound Attract Mod - Voice Chat Configuration
+[voice_chat]
+
+	[voice_chat."Simple VC"]
+		#Enable Simple Voice Chat (SVC) integration.
+		#When enabled, voice chat frames generate a dynamic sound whose range scales with the audio's peak level (dBFS).
+		#Optional: Only takes effect if SVC is installed.
+		enableVoiceChatIntegration = true
+		#Base range used when whispering.
+		#Range: 1 ~ 64
+		voiceChatWhisperRange = 16
+		#Base range used for normal speaking.
+		#Range: 1 ~ 128
+		voiceChatNormalRange = 32
+		#Weight assigned to the generated SVC sound event.
+		#Range: 0.0 ~ 10.0
+		voiceChatWeight = 9.0
+		#Mapping from normalized dB thresholds to range multipliers.
+		#Format: 'threshold:multiplier'.
+		#Threshold is based on current peak volume level (usually 0-127).
+		voiceChatDbThresholdMap = ["110:2.0", "90:1.8", "75:1.5", "50:1.0", "30:0.7", "10:0.3", "0:0.05"]
+

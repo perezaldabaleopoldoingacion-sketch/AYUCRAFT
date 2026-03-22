@@ -1,0 +1,59 @@
+
+#Sound Attract Mod - Scent System Configuration
+[scent_system]
+	#Enable the scent tracking system for mobs.
+	enableScentSystem = true
+	#List of mobs that can smell and track scent trails.
+	scentEligibleMobs = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:wolf"]
+	#Render debug particles for scent nodes (debug only, one-shot).
+	enableScentParticles = false
+	#Enable persistent gameplay scent particles that last as long as the scent node. Per-player colored.
+	enableGameplayScentParticles = false
+	#Ticks between re-spawning particles at each living scent node (lower = more frequent, higher = better performance).
+	#Range: 5 ~ 200
+	scentParticleSpawnInterval = 40
+	#Maximum distance from a player to render scent particles.
+	#Range: 8.0 ~ 128.0
+	scentParticleRenderDistance = 32.0
+	#How long a scent node lasts in ticks (default 6000 = 5 minutes).
+	#Range: 100 ~ 72000
+	scentNodeDurationTicks = 6000
+	#Distance in blocks the player must move to create a new scent node.
+	#Range: 1.0 ~ 64.0
+	scentCreationIntervalBlocks = 5.0
+
+	[scent_system.environmental_logic]
+		#Biome temperature above which scent decays faster (Hot).
+		#Range: 0.0 ~ 2.0
+		tempHeavyDecayThreshold = 1.0
+		#Biome temperature below which scent is preserved but has reduced range (Cold).
+		#Range: -1.0 ~ 2.0
+		tempFreezeThreshold = 0.15
+		#Biome rainfall/humidity above which scent lasts longer (High Humidity).
+		#Range: 0.0 ~ 1.0
+		humidityPreserveThreshold = 0.8
+		#Multiplier for scent decay rate when raining.
+		#Range: 1.0 ~ 100.0
+		rainDecayMultiplier = 4.0
+		#If true, players in water will not leave scent trails.
+		waterStopsScent = true
+		#If true, rain will wash away scents faster.
+		rainWashesScents = true
+
+	[scent_system.ai_logic]
+		#How long a mob will 'camp' at the last known location of an offline player.
+		#Range: 0 ~ 72000
+		scentAmbushDurationTicks = 400
+		#Interval (in ticks) for updating scent logic.
+		#Range: 1 ~ 100
+		scentUpdateInterval = 20
+		#Amount of scent strength lost per tick.
+		#Range: 0.0 ~ 1.0
+		scentStrengthDecay = 0.01
+		#Radius within which mobs can detect scents.
+		#Range: 1.0 ~ 64.0
+		scentDetectionRadius = 16.0
+		#Maximum number of mobs that can compute a new scent path per tick (prevents lag spikes during horde scent tracking).
+		#Range: 1 ~ 100
+		scentScanBudgetPerTick = 5
+

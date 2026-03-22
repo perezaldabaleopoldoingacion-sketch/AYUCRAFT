@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "advancednetherite:netherite_diamond_leggings",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:tyr_leggings",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:smelter_prism",
+            "slot": 2
+        },
+        {
+            "item": "enigmaticlegacy:cosmic_heart",
+            "slot": 3
+        },
+        {
+            "item": "forbidden_arcanus:dark_nether_star",
+            "slot": 4
+        },
+        {
+            "item": "phantasm:stellium_leggings",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "enigmaticlegacy:etherium_block",
+    "essences": {
+        "experience": 200,
+        "aureal": 200,
+        "blood": 0,
+        "souls": 1
+    },
+    "result": {
+        "item": "triforge_additions:triforce_leggings",
+        "count": 1
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherite_scrap",
+    "minecraft:dragon_breath",
+    "enigmaticlegacy:etherium_scrap",
+    "forbidden_arcanus:dragon_scale",
+    "phantasm:stellium_ingot"
+
+    ]
+}

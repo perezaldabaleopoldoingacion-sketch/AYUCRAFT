@@ -1,0 +1,17 @@
+filename = 'skinrestorer-2.6.0+1.20-forge.jar'
+name = 'Skin Restorer'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20', '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.6.0+1.20-forge'
+
+[download]
+hash = 'd2c67e5267d5086768ae6fa59bb33a46b92a9937891b93567f9d14784748fff5483d051ac36e7644a91e65593715077f17c1593ddc26484d367ecab2123bd90d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ghrZDhGW/versions/yFa8KBQN/skinrestorer-2.6.0%2B1.20-forge.jar'
+
+[update.modrinth]
+mod-id = 'ghrZDhGW'
+version = 'yFa8KBQN'

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "forbidden_arcanus:block/runic_deepslate_0"
+      },
+      {
+        "model": "forbidden_arcanus:block/runic_deepslate_1"
+      },
+      {
+        "model": "forbidden_arcanus:block/runic_deepslate_2"
+      },
+      {
+        "model": "forbidden_arcanus:block/runic_deepslate_3"
+      }
+    ]
+  }
+}

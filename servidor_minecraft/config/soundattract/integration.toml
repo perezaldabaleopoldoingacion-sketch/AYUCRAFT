@@ -1,0 +1,75 @@
+
+#Settings for other mod integrations
+[integration]
+	enableQuantifiedIntegration = true
+	enableSmartBrainLibIntegration = true
+	enableCustomNpcsIntegration = true
+
+	[integration.quantified_cache]
+		enableQuantifiedCacheIntegration = true
+		#Range: 0 ~ 65536
+		quantifiedCacheMemoryLimitMB = 256
+		disableQuantifiedCacheOnMemoryPressure = true
+		triggerQuantifiedCacheCleanupOnMemoryPressure = true
+
+	[integration.enhanced_ai_inspired]
+		enableBlockBreaking = false
+		#Range: -1.0 ~ 100.0
+		blockBreakingTimeMultiplier = 1.5
+		blockBreakingToolOnly = false
+		blockBreakingProperToolOnly = false
+		enableTeleportToSound = false
+		#Range: 0.0 ~ 1.0
+		teleportChance = 0.35
+		#Range: 0 ~ 72000
+		teleportCooldownTicks = 300
+		teleportCanTeleportTag = "enhancedai:mobs/teleport_to_target/can_teleport"
+		#EntityType tag used to decide which mobs can be teleported. Defaults to EnhancedAI's tag.
+		teleportCanBeTeleportedTag = "enhancedai:mobs/teleport_to_target/can_be_teleported"
+		#Enable special AI: mobs with the specified tag can pick up another mob and throw it toward the sound location.
+		enablePickUpAndThrowToSound = false
+		#Chance [0..1] for a thrower mob to attempt the pick-up-and-throw behavior. If EnhancedAI is installed, its difficulty-based chance is used instead.
+		#Range: 0.0 ~ 1.0
+		pickUpChance = 0.05
+		#Cooldown (in ticks) after a throw action. If EnhancedAI is installed, its value is used instead.
+		#Range: 0 ~ 72000
+		pickUpCooldownTicks = 600
+		#Minimum distance from the sound for the mob to consider picking up a target.
+		#Range: 0 ~ 1024
+		pickUpMinDistanceToPickUp = 5
+		#Max distance to the sound within which the mob will release/throw the picked-up mob.
+		#Range: 0 ~ 1024
+		pickUpMaxDistanceToThrow = 24
+		#Speed modifier applied to the mob while approaching the pick-up target.
+		#Range: 0.0 ~ 10.0
+		pickUpSpeedModifier = 1.25
+		#EntityType tag used to decide which mobs can perform pick-up-and-throw. Defaults to EnhancedAI's tag.
+		pickUpCanPickUpTag = "enhancedai:mobs/pick_up_and_throw/can_pick_up"
+		#EntityType tag used to decide which mobs can be picked up. Defaults to EnhancedAI's tag.
+		pickUpCanBePickedUpTag = "enhancedai:mobs/pick_up_and_throw/can_be_picked_up"
+		#Enable XRAY targeting compat: mobs in the apply_xray tag can detect players through walls up to a configured range.
+		enableXrayTargeting = false
+		#EntityType tag used to decide which mobs can have XRAY detection. Defaults to EnhancedAI's tag.
+		xrayApplyTag = "enhancedai:mobs/targeting/apply_xray"
+		#Require the mob to also be in the Better Nearby Targeting tag to apply XRAY (mirrors EnhancedAI behavior).
+		xrayRequireBetterNearby = false
+		#EntityType tag for Better Nearby Targeting. Used only if xrayRequireBetterNearby is true.
+		xrayBetterNearbyTag = "enhancedai:mobs/targeting/better_nearby_targeting"
+		#Minimum XRAY follow range (blocks) for fallback when EnhancedAI is not present. 0..128
+		#Range: 0 ~ 128
+		xrayMinRange = 16
+		#Maximum XRAY follow range (blocks). 0 disables XRAY fallback.
+		#Range: 0 ~ 128
+		xrayMaxRange = 24
+		#Chance [0..1] for a mob in the XRAY tag to get the XRAY range (fallback when EnhancedAI is not present).
+		#Range: 0.0 ~ 1.0
+		xrayChance = 0.5
+
+	[integration.relentless_undead_inspired]
+		enableRelentlessClimbing = false
+		relentlessEligibleMobs = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"]
+		zombiesIgnoreHeight = false
+		zombiesCanStack = true
+		#Range: 0.0 ~ 10.0
+		zombieFallDamageMultiplier = 0.5
+

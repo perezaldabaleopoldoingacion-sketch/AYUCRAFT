@@ -1,0 +1,15 @@
+
+[Compatibility]
+
+	[Compatibility.vampirism]
+		enable_compat_vampirism = true
+		disable_integrations_version_check = false
+
+	[Compatibility.player_companions]
+		enable_compat_player_companions = true
+		#Replenish companion blood on companion death
+		replenish_blood_on_death = true
+
+	[Compatibility.mca]
+		enable_compat_mca = true
+

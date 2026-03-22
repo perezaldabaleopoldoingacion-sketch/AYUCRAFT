@@ -1,0 +1,11 @@
+{
+    "pack": {
+        "name": "Better Compat",
+        "id": "bettercompat",
+        "pack_format": 9,
+        "authors": [
+            "Lyof"
+        ],
+        "description": "Adds Better Combat integration for Triforge weapons that don't have it"
+    }
+}

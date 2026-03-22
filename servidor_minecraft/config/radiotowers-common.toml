@@ -1,0 +1,19 @@
+
+[airdrop]
+	#Forge item tag IDs for the airdrop catalog (whitelist). Leave empty to use built-in defaults: forge:ingots, forge:gems, minecraft:foods, etc.
+	whitelistTags = []
+	#Item IDs to exclude from the catalog (e.g. minecraft:nether_star, minecraft:command_block).
+	blacklistItems = ["minecraft:nether_star", "minecraft:command_block", "minecraft:barrier", "minecraft:structure_block", "minecraft:jigsaw", "minecraft:bedrock", "minecraft:spectral_arrow", "minecraft:tipped_arrow"]
+	#Optional: filename in config/radiotowers/ for extra whitelist tags (one per line). E.g. whitelist.txt. Leave empty to disable.
+	whitelistFile = ""
+	#Optional: filename in config/radiotowers/ for extra blacklist item IDs (one per line). E.g. blacklist.txt. Leave empty to disable.
+	blacklistFile = ""
+	#Default difficulty points per item when loading from tags (1â€“20). Rare items use built-in higher values.
+	#Range: 1 ~ 20
+	defaultDifficultyPerItem = 2
+	#Maximum total points to allocate to loot per airdrop (cap on the meter and on what can be sent). Adjustable in config/radiotowers-common.toml.
+	#Range: 20 ~ 500
+	maxTotalDifficulty = 100
+	#When Tacz mod is loaded, add its ammo to the catalog and to crate loot.
+	includeTaczAmmo = true
+

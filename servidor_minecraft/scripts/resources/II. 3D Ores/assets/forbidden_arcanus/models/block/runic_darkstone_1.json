@@ -1,0 +1,10 @@
+{
+  "credit": "Model created by Zorak Design - Contact me on discord for work: CesarZorak#0808",
+  "parent": "cesarzorak:block/fancy_ore_crystal_light/crystal_ligh_1",
+  "textures": {
+		"0": "forbidden_arcanus:block/darkstone",
+		"1": "forbidden_arcanus:block/darkstone",
+		"2": "forbidden_arcanus:block/runic_stone/runic_stone_layer",
+		"particle": "forbidden_arcanus:block/darkstone"
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "inputs": [
+        {
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 3
+        },
+        {
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:oak_leaves",
+    "essences": {
+        "experience": 0,
+        "aureal": 10,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "forbidden_arcanus:nipa",
+        "count": 1
+    }
+}

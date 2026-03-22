@@ -1,0 +1,59 @@
+// FreeCam Client Configuration
+// This file controls the behavior of the FreeCam feature
+{
+  // Movement settings
+  "movement": {
+    "flightMode": "DEFAULT",
+    "horizontalSpeed": 1.0,
+    "verticalSpeed": 1.0
+  },
+
+  // Collision settings
+  "collision": {
+    "ignoreTransparent": true,
+    "ignoreOpenable": true,
+    "ignoreCustom": true,
+    "whitelist": {
+      "ids": [],
+      "patterns": []
+    },
+    "ignoreAll": false,
+    "alwaysCheck": true
+  },
+
+  // Visual settings
+  "visual": {
+    "showPlayer": true,
+    "showHand": false,
+    "fullBright": false,
+    "showSubmersion": true,
+    "playerRenderMinDistance": 2.0
+  },
+
+  // Utility settings
+  "utility": {
+    "disableOnDamage": false,
+    "freezePlayer": false,
+    "allowInteract": false,
+    "interactionMode": "CAMERA"
+  },
+
+  // Notification settings
+  "notification": {
+    "notifyFreecam": true,
+    "notifyTripod": true
+  },
+
+  // Server restriction settings
+  "servers": {
+    "mode": "NONE",
+    "whitelist": [],
+    "blacklist": []
+  },
+
+  // Key binding settings
+  "keyBindings": {
+    "toggleKey": 293,
+    "tripodResetKey": -1
+  }
+}

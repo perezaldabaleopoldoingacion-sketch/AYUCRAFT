@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "repurposed_structures:shipwreck_nether_bricks",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:shipwreck_crimson",
+      "weight": 25
+    },
+    {
+      "structure": "repurposed_structures:shipwreck_warped",
+      "weight": 25
+    }
+  ],
+  "placement": {
+    "salt": 1224747205,
+    "spacing": 20,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

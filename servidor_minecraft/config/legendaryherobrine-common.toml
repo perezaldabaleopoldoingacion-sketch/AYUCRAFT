@@ -1,0 +1,30 @@
+
+[herobrine]
+	#Whether Herobrine can spawn naturally in the world
+	spawnsNaturally = false
+	#List of blocks that Herobrine can break (uses block registry names like 'minecraft:stone')
+	breakableBlocks = ["minecraft:stone", "minecraft:cobblestone", "minecraft:deepslate", "minecraft:granite", "minecraft:diorite", "minecraft:andesite", "minecraft:dirt", "minecraft:grass_block", "minecraft:sand", "minecraft:gravel", "minecraft:clay", "minecraft:terracotta", "minecraft:sandstone", "minecraft:red_sandstone", "minecraft:netherrack", "minecraft:blackstone", "minecraft:basalt", "minecraft:end_stone", "minecraft:coal_ore", "minecraft:iron_ore", "minecraft:gold_ore", "minecraft:diamond_ore", "minecraft:emerald_ore", "minecraft:redstone_ore", "minecraft:lapis_ore", "minecraft:copper_ore", "minecraft:deepslate_coal_ore", "minecraft:deepslate_iron_ore", "minecraft:deepslate_gold_ore", "minecraft:deepslate_diamond_ore", "minecraft:deepslate_emerald_ore", "minecraft:deepslate_redstone_ore", "minecraft:deepslate_lapis_ore", "minecraft:deepslate_copper_ore", "minecraft:nether_gold_ore", "minecraft:nether_quartz_ore", "minecraft:ancient_debris", "minecraft:obsidian", "minecraft:crying_obsidian", "minecraft:bricks", "minecraft:nether_bricks"]
+	#List of blocks that Herobrine's thrown pickaxe can break (leave empty to use same as above)
+	pickaxeBreakableBlocks = []
+
+[enhancedZombie]
+	#Enable enhanced zombies with configurable tools and tower building
+	enabled = true
+	#Tool type for enhanced zombies (sword, axe, pickaxe, shovel, hoe)
+	toolType = "sword"
+	#Tool material for enhanced zombies (wood, stone, iron, gold, diamond, netherite)
+	toolMaterial = "iron"
+	#Enable tower building behavior for enhanced zombies
+	towerBuildingEnabled = true
+	#Block type for zombie towers (uses block registry name like 'minecraft:cobblestone')
+	towerBlock = "minecraft:cobblestone"
+	#Maximum height zombies can build towers
+	#Range: 1 ~ 10
+	towerMaxHeight = 5
+	#Chance per tick for zombie to build tower when target is above (0.0-1.0)
+	#Range: 0.0 ~ 1.0
+	towerBuildChance = 0.05
+	#Cooldown in ticks between tower building attempts
+	#Range: 20 ~ 200
+	towerBuildCooldown = 40
+

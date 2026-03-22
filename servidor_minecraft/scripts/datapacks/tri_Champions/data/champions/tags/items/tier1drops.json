@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "artifacts:thorn_pendant",
+    "artifacts:cross_necklace",
+    "artifacts:panic_necklace",
+    "artifacts:shock_pendant",
+    "artifacts:flame_pendant",
+    "artifacts:umbrella",
+    "artifacts:universal_attractor",
+    "artifacts:flippers",
+    "artifacts:aqua_dashers",
+    "artifacts:kitty_slippers",
+    "enigmaticlegacy:gem_ring",
+    "relics:wool_mitten",
+    "relics:drowned_belt",
+    "relics:hunter_belt",
+    "relics:ice_skates",
+    "minecraft:raw_gold",
+    "minecraft:raw_iron",
+    "minecraft:raw_copper",
+    "minecraft:prismarine_crystals",
+    "minecraft:prismarine_shard",
+    "minecraft:phantom_membrane",
+    "minecraft:gunpowder",
+    "quark:blank_rune",
+    "create:raw_zinc"
+  ]
+}

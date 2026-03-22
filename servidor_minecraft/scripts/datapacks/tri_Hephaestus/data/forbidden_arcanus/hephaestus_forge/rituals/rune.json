@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:blaze_powder",
+            "slot": 0
+        },
+        {
+            "item": "minecraft:diamond",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:blaze_powder",
+            "slot": 2
+        },
+        {
+            "item": "minecraft:diamond",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:blaze_powder",
+            "slot": 4
+        },
+        {
+            "item": "minecraft:diamond",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:lapis_lazuli",
+    "essences": {
+        "experience": 0,
+        "aureal": 100,
+        "blood": 0,
+        "souls": 1
+    },
+    "result": {
+        "item": "forbidden_arcanus:rune",
+        "count": 1
+    }
+}

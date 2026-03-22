@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "enlightened_end:block/bismuth_ore_0"
+      },
+      {
+        "model": "enlightened_end:block/bismuth_ore_1"
+      },
+      {
+        "model": "enlightened_end:block/bismuth_ore_2"
+      },
+      {
+        "model": "enlightened_end:block/bismuth_ore_3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+#PLEASE READ THE INSTRUCTIONS ON THE MOD PAGE TO PREVENT MISTAKES!
+#---
+#Range: 1 ~ 99
+entityMultiplierRate = 1
+#Entities multiplied by entityMultiplierRate upon spawning
+entityMultiplierEntities = []
+#Entities which will be restricted from spawning
+entityBlocklistEntities = []
+#These entities won't burn in the day (from daylight)
+daylightResistantEntities = []
+#List of additional drops and drop chances for zombies
+additionalZombieDrops = ["minecraft:rotten_flesh=0.9", "minecraft:bone=0.1", "minecraft:carrot=0.009", "minecraft:potato=0.0009", "minecraft:iron_nugget=0.0005", "minecraft:gold_nugget=0.0001"]
+#Enable heavily armored zombies
+heavilyArmoredZombiesEnabled = false
+#Enable day counter
+dayCounterEnabled = true
+#Whether zombies can break blocks or not
+zombiesBreakBlocks = true
+#Block breaking reach of zombies
+#Range: 1 ~ 25
+zombieBlockBreakReach = 3
+#Minimum hardness of blocks that should be broken
+#Range: -1 ~ 50
+blockMinimumHardness = 0
+#Maximum hardness of blocks that should be broken
+#Range: 0 ~ 51
+blockMaximumHardness = 4
+

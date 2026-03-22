@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "enlightened_end:block/malachite_ore_0"
+      },
+      {
+        "model": "enlightened_end:block/malachite_ore_1"
+      },
+      {
+        "model": "enlightened_end:block/malachite_ore_2"
+      },
+      {
+        "model": "enlightened_end:block/malachite_ore_3"
+      }
+    ]
+  }
+}

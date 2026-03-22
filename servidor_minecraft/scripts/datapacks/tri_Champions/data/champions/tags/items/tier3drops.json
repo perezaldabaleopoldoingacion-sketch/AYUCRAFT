@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "artifacts:superstitious_hat",
+    "artifacts:lucky_scarf",
+    "artifacts:feral_claws",
+    "artifacts:antidote_vessel",
+    "artifacts:obsidian_skull",
+    "artifacts:cloud_in_a_bottle",
+    "artifacts:crystal_heart",
+    "relics:rage_glove",
+    "minecraft:diamond",
+    "minecraft:emerald",
+    "minecraft:blaze_rod",
+    "minecraft:ghast_tear",
+    "minecraft:iron_block",
+    "forbidden_arcanus:arcane_gold_ingot",
+    "forbidden_arcanus:mundabitur_dust",
+    "forbidden_arcanus:rune",
+    "enigmaticlegacy:etherium_nugget",
+    "alexsmobs:soul_heart"
+    ]
+}

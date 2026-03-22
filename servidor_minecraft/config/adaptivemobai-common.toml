@@ -1,0 +1,58 @@
+
+[general]
+	#Disable all ML/AI features entirely (emergency fallback)
+	safeMode = false
+	#Enable AI-enhanced mob behavior
+	enableMobAI = true
+	#Enable AI-powered villager dialogue (requires MCA Reborn)
+	enableVillagerDialogue = true
+	#Allow mobs to learn from combat outcomes
+	enableLearning = true
+	#Mob AI difficulty multiplier
+	#Range: 0.5 ~ 3.0
+	aiDifficulty = 1.0
+
+[advanced]
+	#Enable cross-mob emergent learning
+	enableCrossMobLearning = true
+	#Reward multiplier for borrowed tactics
+	#Range: 1.0 ~ 10.0
+	crossMobRewardMultiplier = 3.0
+	#Enable contextual difficulty
+	enableContextualDifficulty = true
+
+[federated_learning]
+	#Enable federated learning
+	enableFederatedLearning = true
+	#Cloudflare Worker API endpoint
+	cloudApiEndpoint = "https://mca-ai-tactics-api.mc-ai-datcol.workers.dev"
+	#Cloud API key for authentication
+	cloudApiKey = ""
+
+[tier_progression]
+	#Enable tier progression
+	enableTierProgression = true
+	#Enable visual tier indicators
+	enableVisualTierIndicators = true
+	#Experience rate multiplier
+	#Range: 0.1 ~ 5.0
+	experienceRateMultiplier = 1.0
+	#Sync tier data with federation
+	syncTiersWithFederation = true
+
+[loadouts]
+	#Global per-mob weapon loadouts (server-wide).
+	#Each entry is: <mobId>=<weapon1>,<weapon2>,<weapon3>,<weapon4>,<weapon5>
+	#Use 'none' as a weapon to allow unarmed spawns.
+	#Example: minecraft:zombie=minecraft:iron_sword,minecraft:stone_sword,none
+	#If a player-specific loadout exists, it overrides this.
+	mobWeaponLoadouts = []
+
+	[loadouts.bows]
+		#Default arrow item to give mobs when they spawn with a bow/crossbow
+		defaultBowArrowItem = "minecraft:arrow"
+		#Per-mob arrow override when spawning with a bow/crossbow.
+		#Each entry is: <mobId>=<arrowItemId>
+		#Example: minecraft:skeleton=minecraft:spectral_arrow
+		mobBowArrowOverrides = []
+

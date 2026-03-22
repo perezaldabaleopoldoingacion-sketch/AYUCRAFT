@@ -1,0 +1,81 @@
+{
+  // Config file version
+  "configVersion": 1,
+
+  // Enable recruitment balance feature (survival mode summoning gives units weakness and slowness effects)
+  "enableRecruitBalance": true,
+
+  // Give manual to players on first join
+  "enableFirstJoinManual": true,
+
+  // Generate scrolls in treasure chests
+  "enableScrollLootGeneration": true,
+
+  // Allow monsters to drop scrolls
+  "enableScrollMobDrops": true,
+
+  // Allow recalling soldiers to inventory (shift + right click)
+  "allowSoldierRecall": true,
+
+  // Allow changing soldier equipment (shift + attack)
+  "allowEquipmentChange": true,
+
+  // Allow recalling siege units to inventory in survival mode (shift + right click)
+  "allowSiegeRecall": false,
+
+  // Allow melee attack creepers
+  "allowMeleeAttackCreeper": false,
+
+  // Player friendly fire damage multiplier (damage dealt by players to their own soldiers)
+  "playerFriendlyFireDamageMultiplier": 0.5,
+
+  // Allow soldiers to drop equipment when killed
+  "allowEquipmentDrop": false,
+
+  // Whether soldiers share experience with the player upon killing mobs
+  "shareExperienceWithPlayer": true,
+
+  // Soldier follow distance configuration
+  // Follow distance (inner) - maximum follow distance when idle
+  "followDistanceInner": 5.0,
+  // Follow distance (outer) - maximum follow distance during combat
+  "followDistanceOuter": 15.0,
+
+  // Base combat entity pathfinding range - higher values make entity pathfinding smarter but impact performance heavily
+  // (e.g., 20 supports 500 entities smoothly, 200 causes lag with just 50 entities)
+  "baseCombatEntityPathfindingRange": 35.0,
+
+  // Group pathfinding step budget per tick (shared long-range paths)
+  "groupPathfindingStepsPerTick": 200,
+  // Group pathfinding total node expansion budget
+  "groupPathfindingMaxExpandedNodes": 60000,
+  // Group pathfinding search padding (blocks)
+  "groupPathfindingSearchPadding": 64,
+
+  // Soldier level cap
+  "soldierLevelCap": 99999,
+
+  // Allow summoning tier 4 armies
+  "allowLevel4ArmySummoning": false,
+
+  // Allow summoning undead armies
+  "allowNecromancySummoning": false,
+
+  // Enable worship mechanism (resistance boost and health regeneration based on nearby controlled entities)
+  "enableWorshipMechanism": true,
+
+  // Enable player puppets (whether to convert players into controllable units in RTS mode)
+  "enablePlayerPuppets": true,
+
+  // Restore puppet command queue when returning to player
+  "restorePuppetCommandQueue": false,
+
+  // Enable Better Combat integration (requires Better Mob Combat and Better Combat 1.8.6 or below)
+  "enableBetterMobCombat": true,
+
+  // Enable Epic Knights compatibility (use Epic Knights equipment by default)
+  "enableEpicKnightsCompat": false,
+
+  // Enable supply system (soldiers require supply and suffer penalties when not supplied)
+  "enableSupplySystem": true
+}

@@ -1,0 +1,27 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:netherite_scrap",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:netherite_scrap",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:netherite_scrap",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:gold_ingot",
+    "essences": {
+        "experience": 0,
+        "aureal": 100,
+        "blood": 0,
+        "souls": 1
+    },
+    "result": {
+        "item": "minecraft:netherite_ingot",
+        "count": 1
+    }
+}

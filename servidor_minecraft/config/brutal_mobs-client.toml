@@ -1,0 +1,9 @@
+#Adds an optional high-frequency flashing effect for the flashing code. Disabled by default to prevent photosensitive epilepsy triggers.
+enableFlashingEffects = false
+#Whether to display the wider beam like other player looks from the emitter when firing the Shining Scythe.T=true,F=false,FFP=false for first person.
+displayNormalBeam = "FFP"
+#Provides a more sanitized texture to prevent discomfort for some players.
+brutalZombifiedPiglinSanitizedVersion = false
+#Whether to display stored damage and  damage multiple in HUD when having Pandora Box in hand.
+displayPandoraBoxInfoInHUD = true
+

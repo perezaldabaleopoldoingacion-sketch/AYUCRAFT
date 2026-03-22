@@ -1,0 +1,25 @@
+#When disabled, Brutal Zombie Villagers cannot break blocks and will persist in sunlight(Not recommended to disable)
+brutalZombieVillagerBreakBlocks = true
+#The time before Brutal Creeper explodes (tick)
+brutalCreeperDurationBeforeExplosion = 300.0
+
+["Mobs spawned using the following methods may be replaced by brutal mobs"]
+	Natural = true
+	Chunk_Generation = true
+	Spawner = true
+	Spawn_Egg = false
+	DISPENSER = false
+	Command = false
+	Structure = false
+	Mob_Summoned = false
+	Event = false
+	Others = true
+
+["Option to whether the explosions destroy blocks"]
+	brutalCreeper = true
+	brutalCreeperVariant = true
+	CreeperThrownByBrutalSkeleton = true
+	CoreOfHustle = true
+	StickyTNT = true
+	phototacticImpaler = true
+

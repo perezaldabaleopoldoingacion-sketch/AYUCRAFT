@@ -1,0 +1,29 @@
+
+[SmartZombieConfig]
+	#Enable smart zombies that can break blocks and build around
+	EnableSmartZombies = true
+	#A list of blocks that zombies can break, even if they are too hard for them normally, also applies for tnt phantoms
+	HardBlocksZombieCanBreak = "minecraft:stone,minecraft:cobblestone"
+	#A list of blocks that zombies cannot break, even if they are normally breakable or are soft enough for them. you can add for example bricks so you can build bases safely, also applies for tnt phantoms
+	BlocksZombieCannotBreak = "minecraft:obsidian,minecraft:bedrock,minecraft:tripwire_hook,minecraft:tripwire"
+	#The maximum height of walls that zombies can scale, if a wall is smaller or equal to this, the zombie will try to build till its past the wall
+	#Range: > 0
+	ZombieMaxScalableWallHeight = 3
+	#Replace vanilla zombies with smart zombies, if false, smart zombies will spawn alongside vanilla zombies
+	ReplaceVanillaZombies = false
+	#How far Smart Zombies can see and target entities (in blocks), through blocks
+	#Range: 1.0 ~ 1024.0
+	SmartZombieFollowRange = 48.0
+
+[TNTPhantomConfig]
+	#Enable TNT phantoms that hovers above players and then throw TNT while above them
+	EnableTNTPhantoms = true
+	#The cooldown in ticks between TNT phantoms throwing TNT at players
+	#Range: > 1
+	TNTPhantomTNTCoolDown = 200
+	#Replace vanilla phantoms with TNT phantoms, if false, TNT phantoms will spawn alongside vanilla phantoms
+	ReplaceVanillaPhantoms = false
+	#How far TNT Phantoms can see and target entities (in blocks), through blocks
+	#Range: 1.0 ~ 1024.0
+	TNTPhantomFollowRange = 64.0
+

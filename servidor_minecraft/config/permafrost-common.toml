@@ -1,0 +1,23 @@
+
+["Spawning (ONLY APPLIES IF TFC IS INSTALLED, please use a mob spawn controller mod otherwise"]
+
+	["Spawning (ONLY APPLIES IF TFC IS INSTALLED, please use a mob spawn controller mod otherwise".")"]
+		#Should Mammoths spawn alongside Musk Ox and Alpacas?
+		"Spawn Mammoths" = true
+		#Should Deinotherium spawn alongside Horses and Cows?
+		"Spawn Deinotherium" = true
+		#Should Permafrost Direwolves replace TFC Direwolves?
+		"Direwolf Replacer" = true
+		#Should Quagga spawn alongside Horses?
+		"Spawn Quagga" = true
+		#Should Cervalces Latifrons spawn alongside Deer?
+		"Spawn Cervalces Latifrons" = true
+		#Should Paraceratherium spawn alongside Yaks?
+		"Spawn Paraceratherium" = true
+		#Should Permafrost Dinofelis replace TFC Sabertooths?
+		"Dinofelis Replacer" = true
+		#Should Titanis Walleri spawn alongside Turkeys?
+		"Spawn Titanis Walleri" = true
+		#Should Titanis Walleri spawn alongside Cows?
+		"Spawn Aurochs" = true
+

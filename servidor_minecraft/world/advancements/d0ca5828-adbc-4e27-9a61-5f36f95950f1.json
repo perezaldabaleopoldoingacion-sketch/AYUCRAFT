@@ -1,0 +1,262 @@
+{
+  "comforts:sleeping_bag_light_blue": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "tombstone:event/root": {
+    "criteria": {
+      "spring_bloom": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_black": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_purple": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_lime": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_pink": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_magenta": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_red": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_orange": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/haunted_house": {
+    "criteria": {
+      "haunted_house": "2026-03-20 20:35:08 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_red": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_blue": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "mca:recipes/building_blocks/headstones": {
+    "criteria": {
+      "has_the_slanted_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_white": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "ancient_elements:ancient_elements": {
+    "criteria": {
+      "ancient_elements": "2026-03-20 20:34:45 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_light_gray": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "ancient_elements:the_underground": {
+    "criteria": {
+      "the_underground": "2026-03-20 20:34:46 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_white": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_brown": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_gray": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:rope_and_nail": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:swamp": "2026-03-20 20:34:46 -0600",
+      "minecraft:windswept_forest": "2026-03-20 20:35:12 -0600"
+    },
+    "done": false
+  },
+  "comforts:sleeping_bag_cyan": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_pink": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_brown": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_light_gray": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_black": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_lime": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "bunker_down:first_joined_world": {
+    "criteria": {
+      "first_joined_world": "2026-03-20 20:34:45 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_yellow": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "parcool:grant_parcool_guide": {
+    "criteria": {
+      "tick": "2026-03-20 20:34:45 -0600"
+    },
+    "done": true
+  },
+  "tombstone:event/spring_bloom": {
+    "criteria": {
+      "coded_trigger": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_blue": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_gray": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_cyan": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_purple": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2026-03-20 20:34:46 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_yellow": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_green": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_light_blue": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_orange": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_magenta": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_green": {
+    "criteria": {
+      "has_the_recipe": "2026-03-20 20:34:41 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

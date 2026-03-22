@@ -1,0 +1,262 @@
+
+#Basic Zombie Game Configuration
+[basic]
+	#Zombie evolution day (default: 7)
+	#Range: 1 ~ 100
+	zombieEvolutionDay = 1
+	#Maximum zombies per player (default: 20)
+	#Range: 1 ~ 100
+	maxZombiesPerPlayer = 20
+	#Enable zombie evolution (default: true)
+	enableZombieEvolution = true
+	#Zombie evolution multiplier (default: 1.5)
+	#Range: 1.0 ~ 10.0
+	zombieEvolutionMultiplier = 1.5
+	#Evolution type: normal, fast, slow, adaptive (default: normal)
+	evolutionType = "normal"
+
+#Zombie Spawning Configuration
+[spawning]
+	#Minimum spawn group size (default: 1)
+	#Range: 1 ~ 10
+	minSpawnGroupSize = 1
+	#Maximum spawn group size (default: 4)
+	#Range: 1 ~ 20
+	maxSpawnGroupSize = 4
+	#Spawn chance multiplier (default: 1.0)
+	#Range: 0.1 ~ 5.0
+	spawnChanceMultiplier = 1.0
+	#Spawn in daylight (default: false)
+	spawnInDaylight = false
+	#Spawn in water (default: false)
+	spawnInWater = true
+
+#Zombie Equipment Configuration
+[equipment]
+	#Base armor chance (0.0-1.0)
+	#Range: 0.0 ~ 1.0
+	baseArmorChance = 0.1
+	#Base weapon chance (0.0-1.0)
+	#Range: 0.0 ~ 1.0
+	baseWeaponChance = 0.05
+	#Enchanted gear chance (0.0-1.0)
+	#Range: 0.0 ~ 1.0
+	enchantedGearChance = 0.01
+	#Preferred armor material: leather, chainmail, iron, gold, diamond, netherite
+	preferredArmorMaterial = "iron"
+	#Preferred weapon material: wooden, stone, iron, gold, diamond, netherite
+	preferredWeaponMaterial = "iron"
+
+#Zombie Behavior Configuration
+[behavior]
+	#Can break doors (default: true)
+	canBreakDoors = true
+	#Can open doors (default: true)
+	canOpenDoors = false
+	#Can climb walls (default: false)
+	canClimbWalls = false
+	#Target player priority (0.0-1.0)
+	#Range: 0.0 ~ 1.0
+	targetPlayerPriority = 0.8
+	#Target villager priority (0.0-1.0)
+	#Range: 0.0 ~ 1.0
+	targetVillagerPriority = 0.8
+
+#Zombie Special Abilities Configuration
+[special_abilities]
+	#Summon reinforcements chance (0.0-1.0)
+	#Range: 0.0 ~ 1.0
+	summonReinforcementsChance = 0.05
+	#Infection chance (0.0-1.0)
+	#Range: 0.0 ~ 1.0
+	infectionChance = 0.0
+	#Infection duration (seconds)
+	#Range: 1 ~ 300
+	infectionDuration = 30
+	#Explosion on death chance (0.0-1.0)
+	#Range: 0.0 ~ 1.0
+	explosionOnDeathChance = 0.02
+	#Fire immune (default: false)
+	fireImmune = false
+
+#Zombie Evolution Stages Configuration
+[evolution_stages]
+	#Evolution stages count (1-5)
+	#Range: 1 ~ 5
+	evolutionStagesCount = 1
+
+	#Stage 1 Evolution Configuration
+	[evolution_stages.stage_1]
+		#Day to activate this stage
+		#Range: 1 ~ 100
+		stageDay = 7
+		#Health multiplier
+		#Range: 1.0 ~ 10.0
+		healthMultiplier = 1.5
+		#Damage multiplier
+		#Range: 1.0 ~ 10.0
+		damageMultiplier = 1.3
+		#Speed multiplier
+		#Range: 1.0 ~ 3.0
+		speedMultiplier = 1.1
+		#Armor chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		armorChance = 0.1
+		#Weapon chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		weaponChance = 0.1
+		#Special ability chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		specialAbilityChance = 0.05
+		#Armor type: leather, chainmail, iron, gold, diamond, netherite
+		armorType = "leather"
+		#Weapon type: wooden, stone, iron, gold, diamond, netherite
+		weaponType = "stone"
+		#Can break blocks
+		canBreakBlocks = true
+		#Can call reinforcements
+		canCallReinforcements = false
+		#Reinforcement count
+		#Range: 0 ~ 20
+		reinforcementCount = 2
+
+	#Stage 2 Evolution Configuration
+	[evolution_stages.stage_2]
+		#Day to activate this stage
+		#Range: 1 ~ 100
+		stageDay = 2
+		#Health multiplier
+		#Range: 1.0 ~ 10.0
+		healthMultiplier = 2.0
+		#Damage multiplier
+		#Range: 1.0 ~ 10.0
+		damageMultiplier = 1.6
+		#Speed multiplier
+		#Range: 1.0 ~ 3.0
+		speedMultiplier = 1.2
+		#Armor chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		armorChance = 0.2
+		#Weapon chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		weaponChance = 0.2
+		#Special ability chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		specialAbilityChance = 0.1
+		#Armor type: leather, chainmail, iron, gold, diamond, netherite
+		armorType = "iron"
+		#Weapon type: wooden, stone, iron, gold, diamond, netherite
+		weaponType = "iron"
+		#Can break blocks
+		canBreakBlocks = true
+		#Can call reinforcements
+		canCallReinforcements = true
+		#Reinforcement count
+		#Range: 0 ~ 20
+		reinforcementCount = 4
+
+	#Stage 3 Evolution Configuration
+	[evolution_stages.stage_3]
+		#Day to activate this stage
+		#Range: 1 ~ 100
+		stageDay = 21
+		#Health multiplier
+		#Range: 1.0 ~ 10.0
+		healthMultiplier = 2.5
+		#Damage multiplier
+		#Range: 1.0 ~ 10.0
+		damageMultiplier = 1.9
+		#Speed multiplier
+		#Range: 1.0 ~ 3.0
+		speedMultiplier = 1.3
+		#Armor chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		armorChance = 0.30000000000000004
+		#Weapon chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		weaponChance = 0.30000000000000004
+		#Special ability chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		specialAbilityChance = 0.15000000000000002
+		#Armor type: leather, chainmail, iron, gold, diamond, netherite
+		armorType = "iron"
+		#Weapon type: wooden, stone, iron, gold, diamond, netherite
+		weaponType = "iron"
+		#Can break blocks
+		canBreakBlocks = true
+		#Can call reinforcements
+		canCallReinforcements = true
+		#Reinforcement count
+		#Range: 0 ~ 20
+		reinforcementCount = 6
+
+	#Stage 4 Evolution Configuration
+	[evolution_stages.stage_4]
+		#Day to activate this stage
+		#Range: 1 ~ 100
+		stageDay = 28
+		#Health multiplier
+		#Range: 1.0 ~ 10.0
+		healthMultiplier = 3.0
+		#Damage multiplier
+		#Range: 1.0 ~ 10.0
+		damageMultiplier = 2.2
+		#Speed multiplier
+		#Range: 1.0 ~ 3.0
+		speedMultiplier = 1.4
+		#Armor chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		armorChance = 0.4
+		#Weapon chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		weaponChance = 0.4
+		#Special ability chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		specialAbilityChance = 0.2
+		#Armor type: leather, chainmail, iron, gold, diamond, netherite
+		armorType = "diamond"
+		#Weapon type: wooden, stone, iron, gold, diamond, netherite
+		weaponType = "diamond"
+		#Can break blocks
+		canBreakBlocks = true
+		#Can call reinforcements
+		canCallReinforcements = true
+		#Reinforcement count
+		#Range: 0 ~ 20
+		reinforcementCount = 8
+
+	#Stage 5 Evolution Configuration
+	[evolution_stages.stage_5]
+		#Day to activate this stage
+		#Range: 1 ~ 100
+		stageDay = 35
+		#Health multiplier
+		#Range: 1.0 ~ 10.0
+		healthMultiplier = 3.5
+		#Damage multiplier
+		#Range: 1.0 ~ 10.0
+		damageMultiplier = 2.5
+		#Speed multiplier
+		#Range: 1.0 ~ 3.0
+		speedMultiplier = 1.5
+		#Armor chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		armorChance = 0.5
+		#Weapon chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		weaponChance = 0.5
+		#Special ability chance (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		specialAbilityChance = 0.25
+		#Armor type: leather, chainmail, iron, gold, diamond, netherite
+		armorType = "diamond"
+		#Weapon type: wooden, stone, iron, gold, diamond, netherite
+		weaponType = "diamond"
+		#Can break blocks
+		canBreakBlocks = true
+		#Can call reinforcements
+		canCallReinforcements = true
+		#Reinforcement count
+		#Range: 0 ~ 20
+		reinforcementCount = 10
+

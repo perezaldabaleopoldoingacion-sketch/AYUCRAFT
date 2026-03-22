@@ -1,0 +1,91 @@
+[
+  {
+    "when": "position",
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:zombie",
+    "mindaycount": 3,
+    "mintime": 0,
+    "maxtime": 12500,
+    "result": "allow"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "mutantmonsters",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "minlight": 0,
+    "maxlight": 6,
+    "result": "allow"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "minlight": 7,
+    "maxlight": 16,
+    "result": "deny"
+  },
+  {
+    "dimension": "the_deep_void:deep_void",
+    "mod": "the_deep_void",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "the_deep_void",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:phantom",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "the_deep_void:deep_void",
+    "mob": "immersive_aircraft:quadrocopter",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "the_deep_void:deep_void",
+    "mob": "immersive_aircraft:biplane",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "the_deep_void:deep_void",
+    "mob": "immersive_aircraft:gyrodyne",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "the_deep_void:deep_void",
+    "mob": "immersive_aircraft:warship",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "the_deep_void:deep_void",
+    "mob": "immersive_aircraft:cargo_airship",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "the_deep_void:deep_void",
+    "mob": "immersive_aircraft:airship",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "alexsmobs:fly",
+    "when": "onjoin",
+    "result": "deny"
+  }
+]

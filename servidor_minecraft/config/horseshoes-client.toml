@@ -1,0 +1,6 @@
+
+#Client-side settings for the Horseshoes mod
+[client]
+	#Enable the enchanted glint effect on Horse Armor.
+	enableHorseArmorGlint = true
+

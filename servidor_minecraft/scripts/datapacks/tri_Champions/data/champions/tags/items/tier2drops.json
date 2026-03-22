@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    "artifacts:villager_hat",
+    "artifacts:snorkel",
+    "artifacts:plastic_drinking_hat",
+    "artifacts:power_glove",
+    "artifacts:vampiric_glove",
+    "artifacts:pocket_piston",
+    "artifacts:fire_gauntlet",
+    "artifacts:steadfast_spikes",
+    "artifacts:golden_hook",
+    "artifacts:diggin_claws",
+    "artifacts:helium_flamingo",
+    "artifacts:running_shoes",
+    "artifacts:bunny_hoppers",
+    "artifacts:night_vision_goggles",
+    "relics:magma_walker",
+    "relics:aqua_walker",
+    "relics:arrow_quiver",
+    "relics:jellyfish_necklace",
+    "relics:holy_locket",
+    "relics:aqua_walker",
+    "enigmaticlegacy:super_magnet_ring",
+    "minecraft:gold_block",
+    "create:zinc_block",
+    "minecraft:lapis_block",
+    "minecraft:redstone_block",
+    "minecraft:ender_pearl",
+    "minecraft:amethyst_shard",
+    "forbidden_arcanus:obsidian_with_iron",
+    "forbidden_arcanus:aureal_bottle",
+    "forbidden_arcanus:soul",
+    "create:brass_ingot"
+
+    ]
+}

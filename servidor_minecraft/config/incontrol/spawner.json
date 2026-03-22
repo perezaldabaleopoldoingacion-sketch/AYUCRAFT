@@ -1,0 +1,131 @@
+[
+  {
+    "mob": ["minecraft:zombie"],
+    "persecond": 1.2,
+    "attempts": 6,
+    "amount": {
+      "minimum": 1,
+      "maximum": 10
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 60,
+      "maxthis": 40
+    }
+  },
+  {
+    "phase": "after_day3",
+    "mob": ["minecraft:zombie"],
+    "persecond": 1.2,
+    "attempts": 6,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 60,
+      "maxthis": 20,
+      "and": {
+        "mintime": 0,
+        "maxtime": 12500
+      }
+    }
+  },
+  {
+    "mob": ["minecraft:zombie"],
+    "persecond": 1.0,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 10
+    },
+    "conditions": {
+      "dimension": "the_deep_void:deep_void",
+      "mindist": 20,
+      "maxdist": 70,
+      "maxthis": 15,
+      "minheight": 60
+    }
+  },
+  {
+    "mob": ["minecraft:zombie"],
+    "persecond": 0.5,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "the_deep_void:deep_void",
+      "mindist": 20,
+      "maxdist": 45,
+      "maxthis": 40,
+      "minheight": -30
+    }
+  },
+  {
+    "mob": ["mutantmonsters:mutant_zombie"],
+    "persecond": 0.01,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "the_deep_void:deep_void",
+      "mindist": 30,
+      "maxdist": 70,
+      "maxthis": 2,
+      "minheight": 60
+    }
+  },
+  {
+    "mob": ["alexsmobs:fly"],
+    "persecond": 0.005,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 80,
+      "maxthis": 2,
+      "minheight": 64
+    }
+  },
+  {
+    "mob": ["minecraft:drowned"],
+    "persecond": 1.5,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 10
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 60,
+      "maxthis": 30,
+      "minheight": -64,
+      "maxheight": 50,
+      "and": {
+        "biome": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:cold_ocean",
+          "minecraft:deep_cold_ocean",
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:warm_ocean"
+        ]
+      }
+    }
+  }
+]
